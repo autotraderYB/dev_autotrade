@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676d0309-bb5f-4f8d-998a-5cd410a4a6ce" name="Default Changelist" comment="init">
+    <list default="true" id="676d0309-bb5f-4f8d-998a-5cd410a4a6ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Autotrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Autotrade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,9 +128,23 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/react/promise-timer" />
+      <path value="$PROJECT_DIR$/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/vendor/jaggedsoft/php-binance-api" />
+      <path value="$PROJECT_DIR$/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/vendor/ratchet/rfc6455" />
+      <path value="$PROJECT_DIR$/vendor/ratchet/pawl" />
     </include_path>
   </component>
   <component name="ProjectId" id="21J5t96QPU8PjLunARGs11MDNdC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -152,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637646561415</updated>
-      <workItem from="1637646562957" duration="625000" />
+      <workItem from="1637646562957" duration="11043000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1637646900105</created>
@@ -161,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637646900105</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="xml">
+      <created>1637647223719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637647223719</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,13 +197,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2488" y="115" key="CommitChangelistDialog2" timestamp="1637647052593">
+    <state x="2488" y="115" key="CommitChangelistDialog2" timestamp="1637647223009">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2488" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637647052593" />
+    <state x="2488" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637647223009" />
     <state x="2655" y="433" key="ComposerInitDialogKey" timestamp="1637646781146">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -188,14 +217,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2592" y="235" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637647026996" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1637647065213">
+    <state x="2638" y="333" key="NewPhpClassDialog" timestamp="1637653174181">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637647065213" />
-    <state x="2507" y="216" width="745" height="608" key="find.popup" timestamp="1637646804401">
+    <state x="2638" y="333" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637653174181" />
+    <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1637653350262">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2507" y="216" width="745" height="608" key="find.popup/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637646804401" />
+    <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637653350262" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1637647230533">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637647230533" />
+    <state x="2507" y="216" width="745" height="608" key="find.popup" timestamp="1637655801447">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2507" y="216" width="745" height="608" key="find.popup/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637655801447" />
     <state x="2744" y="433" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1637647029992">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
