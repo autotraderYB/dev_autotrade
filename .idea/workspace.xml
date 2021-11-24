@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676d0309-bb5f-4f8d-998a-5cd410a4a6ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Autotrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Autotrade.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637646561415</updated>
-      <workItem from="1637646562957" duration="11043000" />
+      <workItem from="1637646562957" duration="17323000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1637646900105</created>
@@ -189,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637647223719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="테스트 페이지">
+      <created>1637719886054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637719886054</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,13 +199,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml" />
+    <MESSAGE value="테스트 페이지" />
+    <option name="LAST_COMMIT_MESSAGE" value="테스트 페이지" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2488" y="115" key="CommitChangelistDialog2" timestamp="1637647223009">
+    <state x="2488" y="115" key="CommitChangelistDialog2" timestamp="1637719885257">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2488" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637647223009" />
+    <state x="2488" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637719885257" />
     <state x="2655" y="433" key="ComposerInitDialogKey" timestamp="1637646781146">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -225,10 +227,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637653350262" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1637647230533">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1637719893002">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637647230533" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1637719893002" />
     <state x="2507" y="216" width="745" height="608" key="find.popup" timestamp="1637655801447">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

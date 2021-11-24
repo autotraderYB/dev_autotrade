@@ -12,7 +12,9 @@ class TestController
         $api = new API();
         $bookPrices = $api->candlesticks('FILUSDT');
 
-        dd($bookPrices);
+        $ping = $api->systemStatus();
+
+        dd($ping);
         return;
     }
 }
